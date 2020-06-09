@@ -1,0 +1,67 @@
+//
+//	GENERAL
+// ------------------------------------------------------
+
+// border-box
+html {
+  @include box-sizing(border-box);
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: $color-text;
+  background: $color-bg-body;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font: {
+    size: $font-size-base;
+    family: $font-family;
+    weight: normal;
+  }
+}
+
+.container {
+  @include container(em(1150));
+  //padding: 0 1.25em;
+  padding: 0 10%;
+  min-width: em(320);
+  margin: 0 auto;
+}
+
+a {
+  color: $color-text;
+  text-decoration: none;
+  transition: $animation-speed all ease-in-out;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.fas {
+  vertical-align: middle;
+}
+
+.fa {
+  vertical-align: middle;
+}
+
+.menu {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+
+  li,
+  a {
+    display: inline-block;
+  }
+}

@@ -1,0 +1,37 @@
+//
+//	MIXINS
+// ------------------------------------------------------
+
+@function em($size, $context: 16) {
+  @return ($size / $context) + em;
+}
+
+@mixin font-size($size, $context: 16) {
+  font-size: em($size, $context);
+}
+
+@mixin box-sizing($value) {
+  -webkit-box-sizing: $value;
+  -moz-box-sizing: $value;
+  box-sizing: $value;
+}
+
+@mixin container($width) {
+  max-width: $width;
+  //margin: 0 auto;
+}
+
+@mixin clearfix {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+@mixin rounded($radius: em(5)) {
+  border-radius: $radius;
+}
