@@ -2,27 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f117283e-4c1d-4464-9275-cbb82428a228" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/cold-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/warm-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/_content.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/_general.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/_page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/_typography.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/fontawesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -166,8 +147,17 @@
       <workItem from="1589231967336" duration="1496000" />
       <workItem from="1591094188371" duration="5716000" />
       <workItem from="1591184345724" duration="1673000" />
-      <workItem from="1591606746225" duration="11831000" />
+      <workItem from="1591606746225" duration="12713000" />
+      <workItem from="1591856593567" duration="611000" />
     </task>
+    <task id="LOCAL-00001" summary="change">
+      <created>1591707824940</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591707824940</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,5 +175,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change" />
+    <option name="LAST_COMMIT_MESSAGE" value="change" />
   </component>
 </project>

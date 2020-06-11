@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./scss/main.scss";
-import debounce from "lodash-es/debounce";
 
 const api = {
   key: "&APPID=18aca0f26c0c84601ff8f652d8fd6d75",
