@@ -54,6 +54,7 @@ img {
   padding-left: 0;
   list-style: none;
 }
+
 .menu li,
 .menu a {
   display: inline-block;
@@ -125,6 +126,7 @@ a {
   font-size: 1.25em;
   transition: 0.4s ease;
 }
+
 .search-box .search-bar:focus {
   background-color: rgba(255, 255, 255, 0.75);
 }
@@ -162,6 +164,7 @@ a {
   background-size: cover;
   transition: 0.25s;
 }
+
 .card.warm {
   background: #ff6767;
 }
